@@ -1,0 +1,54 @@
+@font-face {
+  font-family:"Leprosy";
+  src: url('../assets/fonts/Leprosy.ttf');
+}
+@font-face {
+  font-family:"Leprosy 3D";
+  src: url('../assets/fonts/Leprosy3D-Italic.ttf');
+}
+body{
+  color:white;
+  padding-top: 65px;
+}
+.title span{
+  font-family: "Leprosy 3D";
+  font-size: 80px;
+  color: white;
+  border-bottom: 3px solid #1b698e;
+}
+.navbar-brand span{
+  font-family: "Leprosy 3D";
+  font-size: 20px;
+  color: white;
+}
+.navbar-header{
+  padding-right: 5px;
+  border-right: 3px solid #1b698e;
+}
+.login-panel{
+  margin-top: 40px;
+}
+#signupbtn-modal{
+  margin-left: 10px;
+  text-decoration: none;
+}
+#signupbtn-modal:hover{
+  color: green;
+  cursor:pointer;
+}
+/* home */
+.mode-header , .gamemode h2{
+  text-align: center;
+}
+.gamemode{
+  width: 400px;
+  height: 400px;
+}
+.gamemode img{
+  text-align: center;
+  width: 100%;
+}
+.pvpmode:hover,
+.solomode:hover{
+  background-image: url("../assets/lightning.gif");
+}
